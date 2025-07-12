@@ -159,8 +159,9 @@ ai-campaign-predictor/
 - **LSTM Neural Network**: R² score
 - **Overall System**: Average accuracy
 
-### 📊 Final Prediction Ranges
-#### ✅ Engagement Rate (0.1% – 25%)
+## 📊 Final Prediction Ranges
+
+#### ✅ **Engagement Rate (0.1% – 25%)**
 - Good : 0.1% – 2% → Low interaction; may need content or targeting improvement
 - Better : 2% – 7% → Average engagement; audience is moderately responsive
 - Best : 7% – 25% → High engagement; content is well-targeted and effective
