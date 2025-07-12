@@ -153,15 +153,29 @@ ai-campaign-predictor/
 - Historical performance data
 - Quality and creativity scores
 
-### **Model Performance**
-- **Logistic Regression**: 87% accuracy
-- **Random Forest**: 92% R² score
-- **LSTM Neural Network**: 89% R² score
-- **Overall System**: 89% average accuracy
+### **Model Performance metrics to use**
+- **Logistic Regression**: Accuracy score
+- **Random Forest**: R² score
+- **LSTM Neural Network**: R² score
+- **Overall System**: Average accuracy
 
-### **Final prediction**
-- **Engagement Rate**: 0.1% - 25% range
-- **Bounce Rate**: 10% - 90% range
-- **Click-Through Rate**: 0.1% - 15% range
-- **Success Score**: 0-100 scale
+### 📊 Final Prediction Ranges
+#### ✅ Engagement Rate (0.1% – 25%)
+- Good : 0.1% – 2% → Low interaction; may need content or targeting improvement
+- Better : 2% – 7% → Average engagement; audience is moderately responsive
+- Best : 7% – 25% → High engagement; content is well-targeted and effective
+-
+#### 🔁 Bounce Rate (10% – 90%)
+- Best : 10% – 30% → Highly engaging content; users are staying and interacting
+- Better : 30% – 60% → Average bounce; acceptable for general campaigns
+- Good : 60% – 90% → Poor retention; revisit content or audience targeting Note: Lower bounce rate is better.
 
+####🖱️ Click-Through Rate (CTR) (0.1% – 15%)
+- Good : 0.1% – 2% → Low conversion; possible issues with CTA or targeting
+- Better : 2% – 5% → Decent interest; campaign is performing moderately well
+- Best : 5% – 15% → High click activity; campaign is well-optimized
+
+#### 🧠 Success Score (0 – 100)
+- Good : 0 – 40 → Low predicted performance; needs improvements
+- Better : 41 – 70 → Moderate success potential; acceptable performance
+- Best : 71 – 100 → Strong performance; campaign likely to succeed 
